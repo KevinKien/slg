@@ -1,0 +1,80 @@
+.cf:before,.cf:after,.clearfix:before,.clearfix:after {content:"";display:table}.cf:after,.clearfix:after {clear:both}.cf,.clearfix {zoom:1}
+.clear {clear: both;height: 0;}
+.soap-login-box .soap-buttons .soap-login {
+    float: left;
+    width: 116px;
+}
+.soap-login-box .soap-buttons .soap-login, .soap-login-box .soap-buttons .soap-register {
+    color: #555555;
+    line-height: 1em;
+}
+
+.soap-login .soap-button, .soap-register .soap-button {
+    background: url("http://sohagame.vcmedia.vn/images/12_12_2011_btn_login_game.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 31px;
+    text-indent: -2000em;
+    width: 90px;
+}
+.soap-login-box .soap-buttons .soap-register {
+    float: left;
+}
+.soap-register .soap-button {
+    background-position: 0 -31px;
+}
+.soap-login-box .soap-buttons {
+    background-color: #F0F5F8;
+    border: 1px solid #A8D1E0;
+    padding: 13px 0 13px 13px;
+    position: relative;
+}
+.soap-login-box {
+    color: #333333;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 11px;
+    line-height: 1.4em;
+}
+.modal-overlay {
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background:#000;
+    opacity:.6;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.60;
+    z-index:99991;
+}
+.modal-window {
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin:0;
+    padding:0;
+    z-index:99992;
+}
+.close-window {
+    position:absolute;
+    width:29px;
+    height:29px;
+    right:-0px;
+    top:-10px;
+    background:transparent url('http://sohagame.vcmedia.vn/images/ming_close_button_01.png') no-repeat scroll right top;
+    text-indent:-99999px;
+    overflow:hidden;
+    cursor:pointer;
+    opacity:.5;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+}
+.close-window:hover {
+    opacity:.99;
+    filter: alpha(opacity=99);
+    -moz-opacity: 0.99;
+}
+

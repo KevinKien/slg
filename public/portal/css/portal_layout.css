@@ -1,0 +1,214 @@
+﻿
+html, body {font:normal 13px/1.2 'sans-r', 'Lucida Sans Unicode', Tahoma, Arial, sans-serif;color:#666;}
+@charset "utf-8";
+html {  
+    -webkit-font-smoothing: antialiased;
+    /*-webkit-text-shadow: rgba(255,255,255,0.01) 0 0 1px;
+    -webkit-text-stroke: rgba(255,255,255,0.01) 0.1px;
+    -webkit-text-stroke-width: 0.1px*/
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url('../fonts/sans.eot');
+    src: url('../fonts/sans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sans.woff') format('woff'),
+        url('../fonts/sans.ttf') format('truetype');
+    font-weight:400;
+    font-smooth:always;
+    font-style: normal;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face{font-family:sans;src:url(../fonts/sans.svg) format(svg)}
+}
+
+@font-face {
+    font-family: 'sans-r';
+    src: url('../fonts/sans-r.eot');
+    src: url('../fonts/sans-r.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sans-r.woff') format('woff'),
+        url('../fonts/sans-r.ttf') format('truetype');
+    font-weight:400;
+    font-smooth:always;
+    font-style: normal;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face{font-family:sans;src:url(../fonts/sans-r.svg) format(svg)}
+}
+
+@font-face {
+    font-family: 'sans-bold';
+    src: url('../fonts/sans-bold.eot');
+    src: url('../fonts/sans-bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sans-bold.woff') format('woff'),
+        url('../fonts/sans-bold.ttf') format('truetype');
+    font-weight:400;
+    font-smooth:always;
+    font-style: normal;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face{font-family:sans-bold;src:url(../fonts/sans-bold.svg) format(svg)}
+}
+
+@font-face {
+    font-family: 'sans-exbold';
+    src: url('../fonts/sans-exbold.eot');
+    src: url('../fonts/sans-exbold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sans-exbold.woff') format('woff'),
+        url('../fonts/sans-exbold.ttf') format('truetype');
+    font-weight:400;
+    font-smooth:always;
+    font-style: normal;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face{font-family:sans-exbold;src:url(../fonts/sans-exbold.svg) format(svg)}
+}
+
+html, body, form, input, legend, label, select, option, button, fieldset, textarea, div, p, pre, blockquote, img, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li {margin:0;padding:0;}
+img {vertical-align:top;}button {cursor:pointer;outline:none;}ol, ul, dl, li {list-style:none;}fieldset, img {border:0;}input, select, button {vertical-align:middle;}
+a {text-decoration:none;color:#666;}a:hover {text-decoration:underline;color:#666;}
+table {border-collapse:collapse;}table caption {position:absolute;left:-3000px;top:-3000px;width:0;height:0;font-size:0;line-height:0;overflow:hidden;}
+select, input, textarea	{font:normal 11px/1 'Segoe UI', 'Lucida Sans Unicode', 'Lucida Grande', Tahoma, Arial, sans-serif;color:#666;}
+select {height:22px;font:normal 11px/1 'Segoe UI', 'Lucida Sans Unicode', 'Lucida Grande', Tahoma, Arial, sans-serif;color:#666;}
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {display:block;margin:0;padding:0;}
+.none {position:absolute;left:-3000px;top:-3000px;width:0;height:0;font-size:0;line-height:0;overflow:hidden;}
+.txtover {overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}.txtover,x:-moz-any-link,x:default{white-space:normal;word-wrap:break-word}*+html .txtover{white-space:nowrap}
+
+.space5 {clear:both;height:5px;font-size:0;line-height:0;}.space10 {clear:both;height:10px;font-size:0;line-height:0;}.space15 {clear:both;height:15px;font-size:0;line-height:0;}.space20 {clear:both;height:20px;font-size:0;line-height:0;}.space25 {clear:both;height:25px;font-size:0;line-height:0;}.space30 {clear:both;height:30px;font-size:0;line-height:0;}.space35 {clear:both;height:35px;font-size:0;line-height:0;}.space50 {clear:both;height:50px;font-size:0;line-height:0;}.space70 {clear:both;height:70px;font-size:0;line-height:0;}.space90 {clear:both;height:90px;font-size:0;line-height:0;}.space120 {clear:both;height:120px;font-size:0;line-height:0;}
+.space-10 {clear:both;margin-top:-10px;font-size:0;line-height:0;}.space-40 {clear:both;margin-top:-40px;font-size:0;line-height:0;}
+.line_e1e1e1 {clear:both;padding-bottom:30px;margin-top:30px;border-top:1px solid #e1e1e1;}
+
+a.btnStyle01 {float:left;display:block;height:16px;padding:4px 10px 0 10px;border:1px solid #c0c0c0;font:bold 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;background:url('images/btn_bg01_off.gif') repeat-x;}a:hover.btnStyle01 {border:1px solid #94c2ec;text-decoration:none;font:bold 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#287cdb;background:url('images/btn_bg01_on.gif') repeat-x;}
+
+a.btnStyle02 {float:left;display:block;height:22px;padding:8px 30px 0 30px;border:1px solid #db2626;font:bold 14px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fafafa;background:url('images/btn_bg02_off.gif') repeat-x;cursor:pointer;}a:hover.btnStyle02 {border:1px solid #f72a2a;text-decoration:none;font:bold 14px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fafafa;background:url('images/btn_bg02_on.gif') repeat-x;cursor:pointer;}
+
+a.btnStyle03 {float:left;display:block;height:21px;padding:9px 20px 0 20px;border:1px solid #db2626;font:bold 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fafafa;background:url('images/btn_bg02_off.gif') repeat-x;}a:hover.btnStyle03 {border:1px solid #f72a2a;text-decoration:none;font:bold 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fafafa;background:url('images/btn_bg02_on.gif') repeat-x;}
+
+a.btnStyle04 {float:left;display:block;height:18px;padding:7px 30px 0 53px;border:1px solid #435c92;font:bold 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fafafa;background:url('images/btn_sns_facebook_bg.gif') no-repeat left top;}a:hover.btnStyle04 {font:bold 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fafafa;text-decoration:none;}
+a.btnStyle04tw {float:left;display:block;height:18px;padding:7px 30px 0 53px;margin-left:4px;border:1px solid #0588b3;font:bold 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fafafa;background:url('images/btn_sns_twitter_bg.gif') no-repeat left top;}a:hover.btnStyle04tw {font:bold 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fafafa;text-decoration:none;}
+
+a.btnStyle05 {float:left;display:block;height:21px;padding:9px 20px 0 20px;border:1px solid #c0c0c0;font:bold 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;background:url('images/btn_bg03_off.gif') repeat-x;}
+
+a:hover.btnStyle05 {border:1px solid #94c2ec;text-decoration:none;font:bold 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#287cdb;background:url('images/btn_bg03_on.gif') repeat-x;}
+
+.one_btn01 {display:inline-block;height:35px;margin-top:3px;font-size:14px;color:#fefefe;font-weight:600;cursor:pointer;vertical-align:middle;}
+.one_btn01 .btnleft {float:left;width:15px;height:35px;background:url('images/btn01_bg_left.png') no-repeat left top;}
+.one_btn01 .btncenter {float:left;height:32px;padding:3px 0 0 0;background:url('images/btn01_bg_center.png') repeat-x;}
+.one_btn01 .btnright {float:left;width:15px;height:35px;background:url('images/btn01_bg_right.png') no-repeat right top;}
+.one_btn01:hover {color:#fefefe;text-decoration:none;}
+.one_btn01.right {float:right;}
+.one_btn01.right .btncenter {height:30px;padding:5px 0 0 0;}
+
+.one_btn02 {display:inline-block;height:21px;padding:9px 20px 0 20px;margin-left:20px;border:1px solid #c0c0c0;font:bold 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#2a4566;background:url('images/btn_bg03_off.gif') repeat-x;vertical-align:middle;zoom:1;}
+
+.one_btn03 {display:inline-block;height:35px;margin:3px 5px 0 0;font-size:14px;color:#2a4566;font-weight:600;cursor:pointer;vertical-align:middle;}
+.one_btn03 .btnleft {float:left;width:15px;height:35px;background:url('images/btn02_bg_left.png') no-repeat left top;}
+.one_btn03 .btncenter {float:left;height:32px;padding:3px 0 0 0;background:url('images/btn02_bg_center.png') repeat-x;}
+.one_btn03 .btnright {float:left;width:12px;height:35px;background:url('images/btn02_bg_right.png') no-repeat right top;}
+.one_btn03:hover {color:#2a4566;text-decoration:none;}
+.one_btn03.right {float:right;}
+.one_btn03.right .btncenter {height:30px;padding:5px 0 0 0;}
+
+.one_btn04 {display:inline-block;height:35px;margin-top:3px;font-size:14px;color:#2a4566;font-weight:600;cursor:pointer;vertical-align:middle;}
+.one_btn04 .btnleft {float:left;width:15px;height:35px;background:url('images/btn04_bg_left.gif') no-repeat left top;}
+.one_btn04 .btncenter {float:left;height:30px;padding:5px 0 0 0;background:url('images/btn04_bg_center.gif') repeat-x;}
+.one_btn04 .btnright {float:left;width:15px;height:35px;background:url('images/btn04_bg_right.gif') no-repeat right top;}
+.one_btn04:hover {color:#2a4566;text-decoration:none;}
+
+section#ContWrap {clear:both;position:relative;top:0;width:910px;margin:0 auto;padding:0 20px;min-height:800px;_height:800px;z-index:5000;}
+.ContsSubBox {clear:both;width:910px;padding-top:15px;margin:0 auto;background:none;}
+.ContsSubBox h1 {height:24px;font:bold 24px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;word-break:break-all;word-wrap:break-word;}
+.ContsSubBox h1 a.add, .ContsSubBox h1 a:hover.add {font:normal 11px/0.8 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#287cdb;text-decoration:none;}
+.ContsSubBox h1.viewTitle {height:65px;}
+.ContsSubBox h1.viewTitle span {font:normal 11px/0.8 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;}
+.ContsSubBox h1.faqTitle {clear:both;height:auto;padding-bottom:30px;}
+.ContsSubBox h1.faqTitle span {display:block;padding-top:5px;font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;}
+.ContsSubBox h1.faqTitle span a, .ContsSubBox h1.faqTitle span a:hover {color:#287cdb;text-decoration:none;}
+.ContsSubBox h3 {clear:both;font:sans-bold sans-serif;color:#333;word-break:break-all;word-wrap:break-word;}
+.ContsSubBox h3.big {clear:both;  font-family: sans-bold;
+    font-size: 16px;
+    font-weight: normal;color:#333;}
+.ContsSubBox h3.small {clear:both;font:bold 14px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.ContsSubBox h3.small.color {color:#2854b8;}
+.ContsSubBox h3.small .title {float:left;padding-top:5px;}
+.ContsSubBox h3.small a.btnStyle01 {float:right;}
+.ContsSubBox .Contents {float:left;width:580px;}
+.ContsSubBox .sideWrap {float:right;width:290px;}
+.ContsSubBox .sideWrap h2 {padding:0 0 10px 0;font:bold 16px/0.8 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;word-break:break-all;word-wrap:break-word;}
+.ContsSubBox .sideWrap h3 {padding-bottom:30px;}
+.ContsSubBox .sideWrap .snsWrap {clear:both;height:80px;padding:17px 0 0 45px;margin-top:0;border:1px solid #e1e1e1;background:#fafafa;}
+.ContsSubBox .sideWrap .snsWrap li {float:left;width:70px;}
+.ContsSubBox .sideWrap .snsWrap li.facebook {width:65px;padding-top:3px;}
+
+.subMenu {clear:both;overflow:hidden;}
+.subMenu h1 {float:left;height:56px;padding:39px 15px 0 0;margin-right:10px;font:bold 24px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.subMenu menu {float:left;width:600px;padding:33px 0 0 25px;background:url('images/menu_arrow.gif') no-repeat left 41px;}
+.subMenu menu li {float:left;padding:10px 20px 0 10px;font:bold 15px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;white-space:nowrap;background:url('images/menu_div.gif') no-repeat right 10px;}
+.subMenu menu li.end {background:none;}
+.subMenu menu li a {font:bold 15px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;}
+.subMenu menu li a:hover {color:#e1141c;text-decoration:none;}
+.subMenu menu li a.on {color:#e1141c;}
+.subMenu menu.redeem{width:650px;}
+
+.pagingWrap {clear:both;text-align:center;padding:14px 0;}
+.pagingWrap img {vertical-align:middle;margin:0 0 0 0;}
+.pagingWrap a, .pagingWrap a:hover {padding:0 3px;font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;}
+.pagingWrap span {padding:0 2px;font:bold 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.pagingWrap.align_right {float:right;}
+
+.dvclass{filter: alpha(opacity=60); opacity: 0.6;}
+#popupWrap {background:#fff;}
+#popupWrap h1.pageName {height:30px;font:normal 14px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fff;background:#333;}
+#popupWrap h1.pageName strong {float:left;height:21px;padding:9px 66px 0 20px;background:#db2626 url('images/popup_h1_div.gif') no-repeat right top;}
+#popupWrap h1.pageName span {float:right;height:26px;padding:4px 15px 0 25px;background:#1a1a1a url('images/popup_close_div.gif') no-repeat left top;}
+#popupWrap h1.pageName span.etc {padding:4px 7px 0 15px;}
+
+#g_footer_bar {clear:both;padding-top:50px;}
+/* one font */
+.tit_sty01 {color:#000;font-size:30px;}
+.tit_sty02 {color:#000;font-size:18px;}
+.f_sz01 {font-size:15px;}
+.f_sz02 {font-size:11px;}
+.f_cl_pt01 {color:#f62b2b;}
+.f_cl_pt02 {color:#218fb8;}
+.f_cl_se01 {color:#666;}
+.f_cl_se02 {color:#999;}
+
+.subMenu h1.v01_tit {height:auto;padding-top:65px;padding-bottom:20px;font-size:30px;color:#333;}
+
+input.log_type::-ms-clear {display:none;}
+input.log_type {height:38px;padding-left:10px;font-size:13px;line-height:38px;color:#222;border:1px solid #bdbdbd;background:#fff;box-shadow: inset 1px 2px 3px #e6e6e6;}
+input.log_type:focus {height:38px;padding-left:10px;font-size:15px;line-height:38px;color:#222;font-weight:bold;border:1px solid #888;box-shadow:inset 0 0 0 #fff;}
+.input_div_wrp {position:relative;display:inline-block;width:100%;padding-bottom:10px;}
+.input_label {position:absolute;left:10px;top:12px;color:#222;}
+.Input_has_focus {border:1px solid #bdbdbd;}
+
+.validation_chk {position:absolute;right:30px;top:12px;width:15px;height:15px;border:0;font-size:0;line-height:0;background:url('images/icon_input_check.png') no-repeat;}
+.validation_chk.ok {background-position:0 -64px;}
+.validation_chk.no {background-position:0 0;}
+
+.system_message {clear:both;display:block;font-size:11px;padding:5px 0;}
+.system_message.alert {color:#f54141;}
+.system_message.ok {color:#138d13;}
+.system_message .space_alert {display:block;padding-top:5px;}
+
+/*animation alpha*/
+@keyframes mouse_over {from{opacity:0.5;}to{1.0}}
+@-moz-keyframes mouse_over {from{opacity:0.5;}to{1.0}}
+@-webkit-keyframes mouse_over {from{opacity:0.5;}to{1.0}}

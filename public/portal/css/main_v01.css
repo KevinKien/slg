@@ -1,0 +1,182 @@
+﻿@charset "utf-8";
+
+html, body {font:normal 13px/1.2 'Segoe UI', 'Lucida Sans Unicode', Tahoma, Arial, sans-serif;color:#666;}
+@charset "utf-8";
+html {  
+    -webkit-font-smoothing: antialiased;
+    /*-webkit-text-shadow: rgba(255,255,255,0.01) 0 0 1px;
+    -webkit-text-stroke: rgba(255,255,255,0.01) 0.1px;
+    -webkit-text-stroke-width: 0.1px*/
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url('../fonts/sans.eot');
+    src: url('../fonts/sans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sans.woff') format('woff'),
+        url('../fonts/sans.ttf') format('truetype');
+    font-weight:400;
+    font-smooth:always;
+    font-style: normal;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face{font-family:sans;src:url(../fonts/sans.svg) format(svg)}
+}
+
+@font-face {
+    font-family: 'sans-r';
+    src: url('../fonts/sans-r.eot');
+    src: url('../fonts/sans-r.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sans-r.woff') format('woff'),
+        url('../fonts/sans-r.ttf') format('truetype');
+    font-weight:400;
+    font-smooth:always;
+    font-style: normal;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face{font-family:sans;src:url(../fonts/sans-r.svg) format(svg)}
+}
+
+@font-face {
+    font-family: 'sans-bold';
+    src: url('../fonts/sans-bold.eot');
+    src: url('../fonts/sans-bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sans-bold.woff') format('woff'),
+        url('../fonts/sans-bold.ttf') format('truetype');
+    font-weight:400;
+    font-smooth:always;
+    font-style: normal;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face{font-family:sans-bold;src:url(../fonts/sans-bold.svg) format(svg)}
+}
+
+@font-face {
+    font-family: 'sans-exbold';
+    src: url('../fonts/sans-exbold.eot');
+    src: url('../fonts/sans-exbold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sans-exbold.woff') format('woff'),
+        url('../fonts/sans-exbold.ttf') format('truetype');
+    font-weight:400;
+    font-smooth:always;
+    font-style: normal;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face{font-family:sans-exbold;src:url(../fonts/sans-exbold.svg) format(svg)}
+}
+
+html, body, form, input, legend, label, select, option, button, fieldset, textarea, div, p, pre, blockquote, img, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li {margin:0;padding:0;
+font-family: "sans-r",Arial,Helvetica,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "sans",Arial,Helvetica,sans-serif;}
+p, ul li {
+    font-family: "sans-r",Arial,Helvetica,sans-serif;
+}
+img {vertical-align:top;}button {cursor:pointer;}ol, ul, dl, li {list-style:none;}fieldset, img {border:0;}input, select, button {vertical-align:middle;}
+a {text-decoration:none;}a:hover {text-decoration:underline;}
+table {border-collapse:collapse;}table caption {position:absolute;left:-3000px;top:-3000px;width:0;height:0;font-size:0;line-height:0;overflow:hidden;}
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption, main {display:block;margin:0;padding:0;}
+.none {position:absolute;left:-3000px;top:-3000px;width:0;height:0;font-size:0;line-height:0;overflow:hidden;}
+.txtover {overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}.txtover,x:-moz-any-link,x:default{white-space:normal;word-wrap:break-word}*+html .txtover{white-space:nowrap}
+
+th, td, thead, tbody {margin:0;padding:0;}
+
+#main_wrp {min-width:960px;background:#fff;}
+
+.promotion_wrp {position:relative;height:800px;z-index:1;}
+.visual_slider li {height:800px;}
+.promotion_bx .bx-pager {position:absolute;left:50%;top:50px;margin-left:-480px;width:960px;z-index:1000;}
+.promotion_bx .bx-pager a {float:left;width:12px;height:12px;padding:0;margin-right:5px;font-size:0;line-height:0;background:url('images/icon_mega_navi.png') no-repeat;}
+.promotion_bx .bx-pager a.active {background-position:0 -24px;}
+.promotion_bx .bx-controls-direction {position:absolute;left:50%;top:0px;margin-left:-600px;width:1200px;z-index:1001;}
+.promotion_bx .bx-controls-direction a{display:block;position:absolute;top:186px;width:40px;height:69px;text-indent:-9999px;}
+.promotion_bx .bx-controls-direction .bx-prev{left:20px;background:url('images/btn_prev.png') no-repeat;}
+.promotion_bx .bx-controls-direction .bx-next{right:20px;background:url('images/btn_next.png') no-repeat;}
+.promotion_bx .bx-controls-direction a:hover{background-position:0px -71px;}
+
+.promotion_bx .txt_wrp {position:relative;width:960px;margin:0 auto;padding-top:108px;color:#333;}
+.promotion_bx .txt_wrp strong {display:block;width:600px;padding-bottom:12px;font-size:60px;line-height:1.0;}
+.promotion_bx .txt_wrp p {width:600px;padding-bottom:37px;font-size:15px;}
+.promotion_bx .txt_wrp a.btn {display:inline-block;padding:7px 27px 8px 15px;background:#f32323 url('images/icon_mega_link.gif') no-repeat right 12px;box-shadow: 0px 2px 3px #999;border-radius:2px;color:#fefefe;font-size:15px;font-weight:600;text-decoration:none;}
+.promotion_bx .txt_wrp a.btn:hover {text-decoration:none;}
+
+.main_conts_wrp {position:relative;max-width:1200px;min-width:960px;margin:0 auto;margin-top:-360px;padding-bottom:60px;border-top:4px solid #e71919;background:url('images/bg_issue_banner.png') no-repeat left top;overflow:hidden;z-index:2000;}
+.main_issue_wrp {width:960px;margin:0 auto;}
+
+.issue_banner_bx {float:left;padding:30px 0 26px 0;height:114px;}
+.issue_banner_bx a {float:left;margin-right:12px;}
+.issue_banner_bx a .play {display:block;position:relative;}
+.issue_banner_bx a .play .back {position:absolute;left:50%;top:25px;display:block;width:60px;height:60px;margin-left:-30px;background:url('images/icon_movie_play.png') no-repeat;}
+.issue_banner_bx a .play .front {position:absolute;left:50%;top:20px;display:none;width:70px;height:70px;margin-left:-35px;background:url('images/icon_movie_play_over.png') no-repeat;}
+.issue_banner_bx a:hover .play .back {animation:over_back 0.3s ease-in;-webkit-animation:over_back 0.3s ease-in;transform:scale(1.15,1.15);transition:all 0.3s ease-in;opacity:0.5;}
+.issue_banner_bx a:hover .play .front {display:block;animation:over_front 0.3s ease-in;-webkit-animation:over_front 0.3s ease-in;opacity:0.8;}
+
+@keyframes over_back {from{opacity:1.0;}to{0.0}}
+@-moz-keyframes over_back {from{opacity:1.0;}to{0.0}}
+@-webkit-keyframes over_back {from{opacity:1.0;}to{0.0}}
+
+@keyframes over_front {from{opacity:0.0;}to{1.0}}
+@-moz-keyframes over_front {from{opacity:0.0;}to{1.0}}
+@-webkit-keyframes over_front {from{opacity:0.0;}to{1.0}}
+
+.sticker_wrp {float:left;padding:48px 0 0 40px;}
+.sticker_wrp li {float:left;width:84px;text-align:center;}
+.sticker_wrp li a {position:relative;display:block;width:84px;padding-top:60px;text-decoration:none;}
+.sticker_wrp li a:hover {text-decoration:none;}
+.sticker_wrp li a span {position:absolute;left:0;top:0;display:block;width:84px;height:54px;background:url('images/icon_sticker.png') no-repeat;}
+.sticker_wrp li a span.front {display:none;}
+.sticker_wrp li a:hover span.front {display:block;}
+.sticker_wrp li.cnum0 a {color:#f42626}
+.sticker_wrp li.cnum1 a {color:#ffa314}
+.sticker_wrp li.cnum2 a {color:#21b1a2}
+.sticker_wrp li.cnum0 a .back {background-position:15px 0;animation:over_back 0.3s ease-in;-webkit-animation:over_back 0.3s ease-in;}
+.sticker_wrp li.cnum1 a .back {background-position:-69px 0;animation:over_back 0.3s ease-in;-webkit-animation:over_back 0.3s ease-in;}
+.sticker_wrp li.cnum2 a .back {background-position:-153px 0;animation:over_back 0.3s ease-in;-webkit-animation:over_back 0.3s ease-in;}
+.sticker_wrp li.cnum0 a:hover .front {background-position:15px -76px;animation:over_front 0.3s ease-in;-webkit-animation:over_front 0.3s ease-in;}
+.sticker_wrp li.cnum1 a:hover .front {background-position:-69px -76px;animation:over_front 0.3s ease-in;-webkit-animation:over_front 0.3s ease-in;}
+.sticker_wrp li.cnum2 a:hover .front {background-position:-153px -76px;animation:over_front 0.3s ease-in;-webkit-animation:over_front 0.3s ease-in;}
+
+.game_wrp {clear:both;padding:60px 0 110px 0;border-top:1px solid #e71919;background:url('images/bg_game_lineup.gif') repeat;}
+.game_wrp .title {width:960px;height:123px;margin:0 auto;background:url('images/img_game_lineup.png') no-repeat 340px top;font-size:0;line-height:0;}
+.game_line_list {position:relative;width:972px;margin:-65px auto 0 auto;overflow:hidden;}
+.game_line_list ul {width:972px;margin:0 -6px 0 6px;overflow:hidden;}
+
+.game_line_list ul li {float:left;width:312px;height:200px;margin:0 12px 12px 0;}
+
+.game_link {position:relative;width:312px;height:200px;}
+.game_link > a{display:block;}
+.game_link > a .txt:hover{text-decoration:none;}
+.game_link .game_img {position:absolute;left:0;top:0;}
+.game_link .game_txt {display:none;}
+.game_link:hover .game_txt {display:block;position:absolute;left:0;top:0;animation:over_front 0.5s ease-in;-webkit-animation:over_front 0.5s ease-in;}
+.game_link:hover .front {width:312px;height:200px;position:absolute;left:0;top:0;background:url('images/bg_game_background.png') no-repeat;z-index:1;}
+.game_link:hover .txt {position:absolute;left:0;top:0;width:272px;height:180px;padding:20px 20px 0 20px;text-align:center;z-index:2;}
+.game_link:hover .txt strong {display:block;padding-bottom:5px;font-size:30px;color:#fff;font-weight:600;text-align:left;}
+.game_link:hover .txt p {color:#fff;padding-bottom:15px;text-align:left;}
+.game_link:hover .txt .btn_bx {position:absolute;bottom:20px;left:0;width:312px;text-align:center;}
+.game_link:hover .txt span {display:inline-block;padding:7px 27px 8px 15px;background:#222 url('images/icon_mega_link.gif') no-repeat right 12px;box-shadow: 0px 2px 3px #000;border-radius:2px;color:#fefefe;font-size:14px;font-weight:600;text-decoration:none;}
+/*.game_link .game_txt a.btn:hover {text-decoration:none;}*/
+
+.dvclass{filter: alpha(opacity=60); opacity: 0.6;}
+.pop_movie_wrp {position:relative;width:820px;height:480px;border:5px solid #1b1b1b;overflow:hidden;}
+.pop_movie_wrp h1 {height:25px;padding:5px 0 0 20px;color:#fff;font-size:13px;font-weight:normal;font-family:Verdana, Arial, Helvetica, sans-serif;background:#1b1b1b;}
+.pop_movie_wrp .pop_movie_bx {float:left;width:820px;height:450px;}
+.pop_movie_wrp .pop_movie_bx iframe {width:820px;height:450px;padding:0;margin:0;}
+.pop_movie_wrp a.pop_close {position:absolute;right:10px;top:5px;width:20px;height:20px;font-size:0;line-height:0;background:url('images/btn_pop_close.gif') no-repeat center center;}

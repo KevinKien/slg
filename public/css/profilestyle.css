@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 23, 2015, 2:55:01 PM
+    Author     : Duong
+*/
+/*.box-info > .box-header {
+    color: #ffffff;
+    background: #00c0ef;
+    background-color: #00c0ef;
+}*/
+.menuicn {
+    float: left;
+    width: 26px;
+    height: 26px;
+    margin: 5px 0 0 -34px;
+}
+.profile_menu{
+    padding: 0;
+}
+.profile_menu li{
+    list-style: none;
+}
+.profile_menu li:hover,.profile_menu li:active{
+}
+.profile_menu li a{
+    padding: 0;
+}
+.profile_menu li a:hover{
+    color: #E19504;
+    text-decoration: none;
+    text-transform: none;
+}
+.profile_menu li a h3{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+.ion-person:before{
+    float: left;
+    padding: 10px 5px 0;
+    font-size: 30px;
+    color: #E19504;
+}
+.info-box-content {
+    padding: 20px 10px;
+    line-height: 30px;
+}
+.info-box-content:hover{
+    background: #fafafa;
+}
+.barselect{
+    background: #fafafa;
+}
+.info-box-icon {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 90px;
+    width: 60px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+    background-color: #fff;
+}
+.color_dn{
+    color: #00c0ef;
+    font-size: 38px
+}
+.color_tc{
+    color: #E19504;
+    font-size: 38px
+}
+.color_dp{
+    color: #0000C2;
+    font-size: 38px;
+}
+.color_dt{
+    color: #01FF70;
+    font-size: 38px
+}
+.profiletable tr{
+    height: 50px
+}
+.profiletable > tbody > tr > td {
+    vertical-align: inherit;
+    font-size: 16px;
+}
+.profiletable .labels {
+    color: #555;
+}
+.profilecont{
+    padding-top: 40px;
+}
+section#ContentWrap {
+    clear: both;
+    top: 0;
+    width: 910px;
+    margin: 0 auto;
+    padding: 0;
+}
+.box-title, .payinfo_header, .paytask_header {
+    border-bottom: 2px solid #de131b;
+    color: #333;
+    font-family: "sans-bold",Arial,Helvetica,sans-serif;
+    /*font-size: 16px;*/
+    padding-bottom: 30px;
+}
+.subMenu h1 {
+    height: 92px;
+    margin: 0;
+}
+.box-footer .btn{
+    margin-left: 15px;
+}
+.box-header h3{
+    margin-bottom: 0;
+}
+.game_list_bx .game_list li a:hover span {
+    width: 46px;
+    height: 46px;
+}

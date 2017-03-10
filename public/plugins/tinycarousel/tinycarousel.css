@@ -1,0 +1,137 @@
+/* Tiny Carousel */
+
+#ftsld {
+    overflow: hidden;
+    padding: 5px;
+}
+#ftsld .viewport {
+    float: left;
+    width: 594px;
+    height: 95px;
+    overflow: hidden;
+    position: relative;
+}
+#ftsld .buttons {
+    border-radius: 4px;
+    display: block;
+    margin: 0 5px 0 0;
+    float: left;
+    width: 25px;
+    height: 94px;
+    position: relative;
+}
+#ftsld .next {
+    margin: 0 0 0 5px;
+    background: #fff url("../../img/next.png") center no-repeat;
+}
+#ftsld .prev {
+    background: #fff url("../../img/prev.png") center no-repeat;
+}
+#ftsld .buttons:hover {
+    background-color: #ebebeb;
+}
+#ftsld .disable {
+    visibility: hidden;
+}
+#ftsld .overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 240px;
+    left: 0;
+    top: 0;
+}
+#ftsld .overview li {
+    float: left;
+    border: 1px solid #dcdcdc;
+    padding: 1px;
+    height: 90px;
+    position: relative;
+}
+#ftsld .overview li img {
+    width: 590px;
+    height: 90px;
+}
+#ftsld .overview li span {
+    position: absolute;
+    right: 5px;
+    background: #C72516;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 1px 5px 2px 5px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px 0px #000;
+    top: 5px;
+}
+/*News*/
+
+#nssld {
+    overflow: hidden;
+    padding: 5px;
+    background: #d1d1d1;
+    background: -moz-linear-gradient(top, #d1d1d1 0%, #f2f2f2 100%);
+    background: -webkit-linear-gradient(top, #d1d1d1 0%, #f2f2f2 100%);
+    background: linear-gradient(to bottom, #d1d1d1 0%, #f2f2f2 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#f2f2f2', GradientType=0);
+    box-shadow: inset 0px 0px 0px 1px #fff;
+}
+#nssld .viewport {
+    float: left;
+    width: 698px;
+    height: 34px;
+    overflow: hidden;
+    position: relative;
+}
+#nssld .buttons {
+    border-radius: 4px;
+    display: block;
+    margin: 0 5px 0 0;
+    float: left;
+    width: 25px;
+    height: 33px;
+    position: relative;
+}
+#nssld .next {
+    margin: 0 0 0 5px;
+    background: #fff url("../../img/next.png") center no-repeat;
+}
+#nssld .prev {
+    background: #fff url("../../img/prev.png") center no-repeat;
+}
+#nssld .buttons:hover {
+    background-color: #ebebeb;
+}
+#nssld .disable {
+    visibility: hidden;
+}
+#nssld .overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 240px;
+    left: 0;
+    top: 0;
+}
+#nssld .overview li {
+    float: left;
+    padding: 7px 0;
+    width: 698px;
+}
+#nssld .overview li a {
+    color: #000;
+    font-weight: 700;
+}
+#nssld .overview li img {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+#nssld .overview li span {
+    font-size: 11px;
+    color: #999;
+    font-weight: 500;
+}

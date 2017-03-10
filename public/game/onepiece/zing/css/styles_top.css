@@ -1,0 +1,21 @@
+body { color: #ffface; font-size: 13px; font-family: tahoma; background-color: #6d1616; background-image: url(../images/bg.jpg); background-repeat: no-repeat; background-position: center top; margin: 0; padding: 0; }
+a { color: #ffe788; text-decoration: none; }
+a:hover { color: #ffbf57; text-decoration: none; }
+.container { width: 836px; margin-right: auto; margin-left: auto; padding-top: 380px; }
+a.back { font-size: 14px; font-weight: bold; background-color: #331b09; float: right; margin-right: 20px; padding: 6px 12px 8px; -webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px; }
+.top { width: 500px; float: left; margin-left: 20px; }
+.top span.ico { color: #dd8f13; font-size: 38px; font-weight: bold; line-height: 54px; background-image: url(../images/ico.png); background-repeat: no-repeat; text-indent: 70px; float: left; }
+.top>div table { width: 100%; float: left; margin-top: 20px; }
+.top>div table td { padding: 10px 20px; }
+.top>div table td.tt { text-align: center; width: 20px; }
+.top>div table tr.stripe { background-color: #5b090b; }
+.top>div table tr.head { font-weight: bold; background-color: #b1532e; }
+.top>div table tr.one { background-color: #bf7d1f; }
+.top>div table tr.two { background-color: #b49015; }
+.top>div table tr.three { background-color: #789b4e; }
+/*Option*/
+.option { background-color: #5b090b; width: 220px; height: auto; float: right; margin-top: 44px; margin-right: 20px; padding: 15px 30px 30px; }
+form label { font-size: 12px; font-weight: bold; text-transform: uppercase; width: 100%; float: left; margin-top: 15px; margin-bottom: 10px; }
+form select { color: #b40f0f; font-weight: bold; background-color: #ffface; width: 100%; height: 30px; float: left; padding: 5px; border-style: none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }

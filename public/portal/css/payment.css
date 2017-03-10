@@ -1,0 +1,304 @@
+﻿@charset "utf-8";
+
+th, td, thead, tbody {margin:0;padding:0;}
+
+.myWcoinView {clear:both;height:62px;margin-bottom:30px;background:url('/payment/ob/common/v1/contents/myWcoinWrap_bg.gif') no-repeat;overflow:hidden;_zoom:1;}
+.myWcoinViewfloatinig {float:right;padding:16px 10px 16px 0;}
+.myWcoinView h2 {float:left;padding:4px 27px 0 0;font:bold 18px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#d07c32;background:url('/payment/ob/common/v1/contents/menu_arrow.gif') no-repeat right 5px;}
+.myWcoinView ul {float:left;padding-left:15px;}
+.myWcoinView ul li.icon_wcoin_C {float:left;padding:2px 20px 0 30px;font:bold 27px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;background:url('/payment/ob/common/v1/contents/icon_C.gif') no-repeat left 2px;}
+.myWcoinView ul li.icon_wcoin_P {float:left;padding:2px 20px 0 30px;font:bold 27px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;background:url('/payment/ob/common/v1/contents/icon_P.gif') no-repeat left 2px;}
+
+.Title_info {clear:both;padding:0 0 0 0;}
+.Title_info.bg {height:128px;background:url('/payment/ob/common/v1/contents/img_coin_bg.jpg') no-repeat 668px 0;}
+.Title_info h2 {padding:5px 0 18px 0;font:bold 14px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.Title_info p {font:normal 12px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;}
+.Title_info p a, .Title_info p a:hover {color:#287cdb;}
+
+.wcoinByProcess {clear:both;height:85px;margin-bottom:40px;border-bottom:1px solid #e1e1e1;background:#fafafa;}
+.wcoinByProcess li {float:left;width:182px;}
+.wcoinByProcess li strong {display:block;height:18px;padding:6px 0 0 10px;font:bold 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#ccc;background:#333;}
+.wcoinByProcess li span {display:block;padding:13px 0 0 10px;font:normal 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;}
+.wcoinByProcess li.on strong {font:bold 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fff;background:url('/payment/ob/common/v1/contents/step_on_bg.gif') no-repeat;}
+.wcoinByProcess li.onEnd strong {font:bold 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fff;background:#db2626;}
+.wcoinByProcess li.on span {font:bold 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#db2626;}
+.wcoinByProcess li.onEnd span {font:bold 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#db2626;}
+
+.myCountryView {width:235px;height:24px;padding:8px 5px 0 8px;margin-bottom:30px;border:1px solid #e1e1e1;font:normal 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.myCountryView img {vertical-align:middle;margin-right:5px;}
+
+.seletCreditCard {clear:both;padding:15px;border:1px solid #d4dce9;background:#f7f8fb;overflow:hidden;_zoom:1;}
+.seletCreditCard .icon {float:left;padding-right:20px;}
+.seletCreditCard .txtConts {float:left;font:normal 12px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.seletCreditCard .txtConts span {display:block;padding:7px 0 0 0;color:#4c6599;}
+
+.wBuyCoinSelect {position:relative;margin-top:10px;}
+.wBuyCoinSelect h3 {width:250px;height:34px;background:url('/payment/ob/common/v1/contents/bg_oftenview.gif') no-repeat left top;text-align:left;letter-spacing:-1px}
+.wBuyCoinSelect h3 a {display:block;width:235px;height:26px;padding:8px 0 0 15px;font:normal 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;text-decoration:none;}
+.wBuyCoinSelect h3 a:hover {font:normal 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#ed1c24;text-decoration:none;}
+.wBuyCoinSelect h3 a img {margin-right:3px;vertical-align:middle;}
+.wBuyCoinSelectlist {position:absolute;left:0px;top:33px;width:248px;border:1px solid #e1e1e1;background:#fff;z-index:100;}
+.wBuyCoinSelectlist ul {width:248px;overflow:hidden;}
+.wBuyCoinSelectlist li {width:100%;padding:0 0 0 0;vertical-align:top;line-height:1em;letter-spacing:-1px;text-align:left;}
+.wBuyCoinSelectlist li a {display:block;width:236px;height:26px;padding:8px 0 0 14px;font:normal 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;text-decoration:none;}
+.wBuyCoinSelectlist li a:hover {width:233px;height:25px;padding:7px 0 0 13px;font:normal 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#ed1c24;border:1px solid #ed1c24;background:#fff;text-decoration:none;}
+.wBuyCoinSelectlist li a img {margin-right:3px;vertical-align:middle;}
+
+.dedeemCodeInputWrap {clear:both;width:910px;margin-bottom:45px;background:url('/payment/ob/common/v1/contents/redeemCode_bg02.gif') no-repeat left bottom;}
+.dedeemCodeInputBox {background:url('/payment/ob/common/v1/contents/redeemCode_bg01.gif') no-repeat left top;}
+.dedeemCodeInputConts {width:660px;padding:25px 0 30px 0;margin:0 auto;overflow:hidden;_zoom:1;}
+.dedeemCodeInputConts h4 {padding-bottom:10px;font:normal 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.dedeemCodeInputConts ul {float:left;}
+.dedeemCodeInputConts li {float:left;padding-right:10px;}
+.dedeemCodeInputConts li input.default {width:490px;height:25px;padding:7px 10px 0 10px;border:1px solid #ccc;font:bold 15px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;text-align:left;}
+.dedeemCodeInputConts li input:focus {border:1px solid #ed1c24;}
+.dedeemCodeInputConts li.end {padding-right:10px;background:none;}
+
+.redeemCodePopWrap {clear:both;padding:20px 19px 0 19px;overflow:hidden;_zoom:1;}
+.redeemCodeInputPopWrap {clear:both;width:468px;margin-bottom:10px;background:url('/payment/ob/common/v1/contents/redeemCode_pop_bg02.gif') no-repeat left bottom;}
+.redeemCodeInputPopBox {background:url('/payment/ob/common/v1/contents/redeemCode_pop_bg01.gif') no-repeat left top;}
+.redeemCodeInputPopBox .redeemCode {width:425px;padding:25px 0 30px 0;margin:0 auto;overflow:hidden;_zoom:1;}
+.redeemCodeInputPopBox .redeemCode h4 {padding-bottom:10px;font:normal 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.redeemCodeInputPopBox .redeemCode ul {float:left;}
+.redeemCodeInputPopBox .redeemCode li {float:left;padding-right:5px;}
+.redeemCodeInputPopBox .redeemCode li input.default {width:66px;height:24px;padding-top:6px;border:1px solid #ccc;font:bold 15px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;text-align:center;}
+.redeemCodeInputPopBox .redeemCode li input.on {width:66px;height:24px;padding-top:6px;border:1px solid #ed1c24;font:bold 15px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;text-align:center;}
+.redeemCodeInputPopBox .redeemCode li.end {padding-right:5px;background:none;}
+.redeemCodePopWrap .alertMessageWcoin {padding:8px 20px 25px 0;}
+.redeemCodePopWrap .redeemMessage {clear:both;padding:10px 0 20px 0;font:normal 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.redeemCodePopWrap .btnRedeemPop {position:relative;height:75px;}
+.redeemCodePopWrap .btnRedeemPop a {position:absolute;left:50%;top:20px;margin-left:-75px;}
+
+.tableTopinfo {clear:both;font:normal 12px/1.5 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;}
+.tableTopinfo strong {font-weight:normal;color:#db2626;}
+.tableTopinfo strong.point {font-weight:bold;}
+.wCoinContsinfo {clear:both;font:bold 11px/1.5 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;}
+.alertMessageWcoin {clear:both;padding:8px 20px 0 0;font:normal 11px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#ff3a3a;overflow:hidden;}
+.etcInfoTxt {padding:20px 0 27px 0;font:normal 12px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.etcInfoTxt.etc {padding-top:10px;}
+.etcInfoTxt li {color:#666;line-height:18px;}
+.etcInfoTxt li.alertMessageWcoin {padding-top:0;font:bold 12px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#ed1c24;}
+h4.chktxt {clear:both;padding:15px 0 10px 13px;font:normal 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;background:url('/payment/ob/common/v1/contents/icon_chk_arrow.gif') no-repeat left 17px;}
+.btnWcoinDefault {clear:both;padding-left:0;}
+.btnWcoinDefault a {margin-right:5px;}
+
+.tableStyle01 {clear:both;border-top:2px solid #de131b;}
+.tableStyle01 th {padding:10px 0;font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;border-bottom:2px solid #333;background:#fafafa;}
+.tableStyle01 td {padding:13px 0 12px 20px;font:normal 12px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;text-align:left;border-bottom:1px solid #e1e1e1;}
+.tableStyle01 td a, .tableStyle01 td a:hover {color:#333;}
+.tableStyle01 td.dateTxt {padding:13px 0 12px 0;font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;text-align:center;}
+.tableStyle01 td.fontTxt {color:#666;}
+
+.tableStyle02 {clear:both;}
+.tableStyle02 th {padding:14px 5px 12px 15px;font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;text-align:left;vertical-align:top;border-bottom:1px solid #e1e1e1;background:#fafafa;}
+.tableStyle02 th input {width:13px;height:13px;margin-right:3px;vertical-align:middle;}
+.tableStyle02 th.borderStyle {border-top:2px solid #de131b;}
+.tableStyle02 th.logo {padding:20px 0;text-align:center;}
+.tableStyle02 th.logo img {border:1px solid #e1e1e1;}
+.tableStyle02 td {padding:10px 10px 10px 18px;font:normal 13px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;text-align:left;border-bottom:1px solid #e1e1e1;}
+.tableStyle02 td.selectForm {padding:15px 10px 15px 0;text-align:left;color:#666;}
+.tableStyle02 td.selectForm select {margin-top:10px;}
+.tableStyle02 td strong {font-weight:normal;color:#de131b;}
+.tableStyle02 td li {white-space:nowrap;}
+.tableStyle02 td li input {width:13px;height:13px;}
+.tableStyle02 td li img {margin-left:8px;vertical-align:middle;}
+.tableStyle02 td.borderStyle {border-top:2px solid #333;}
+.tableStyle02 td.borderStyle a, .tableStyle02 td.borderStyle a:hover {color:#287cdb; display: block;}
+.tableStyle02 td.borderStyle a {padding:5px 15px;}
+.tableStyle02 td.borderStyle a:hover{ border:5px solid #ccc; padding:0px 10px;}
+.tableStyle02 td input.txtstyle {height:16px;padding:4px 0 0 3px;border:1px solid #e1e1e1;font:normal 12px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.tableStyle02 td textarea.txtstyle {width:570px;height:76px;padding:4px 0 0 3px;margin-bottom:5px;border:1px solid #e1e1e1;font:normal 12px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.tableStyle02 td span.infoTxt {color:#999;font-size:11px;}
+.tableStyle02 td div.rdtitle {font:bold 14px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.tableStyle02 td div.rdtxt {padding:7px 0 5px 0;color:#666;}
+.tableStyle02 td div.rdsiteLink a, .tableStyle02 td div.rdsiteLink a:hover {font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#287cdb;}
+
+th.hide_row,td.hide_row{
+    padding: 0px !important;
+    margin:0px !important;
+    line-height: 0px !important;
+}
+
+td .gifWcoinInfo {padding-bottom:5px;color:#666;}
+td .gifWcoinInfo strong {font-weight:normal;color:#db2626;}
+td .searchArea {clear:both;}
+td .searchArea select, td .searchArea input {float:left;margin-right:5px;}
+td .gifWcoinErrorMasage {clear:both;padding-top:8px;font:normal 11px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#ff3a3a;}
+.tableStyle02 td.borderStyle a.btnStyle01 {color:#666;}
+.tableStyle02 td.borderStyle a.btnStyle01:hover {color:#287cdb;}
+
+.memberTabWrap {clear:both;border-bottom:2px solid #de131b;overflow:hidden;_zoom:1;}
+.memberTabWrap li {float:left;padding:1px;border-top:1px solid #dadada;border-left:1px solid #dadada;border-right:1px solid #dadada;}
+.memberTabWrap li a {display:block;padding:9px 28px;font:bold 14px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;background:url('/payment/ob/common/v1/contents/account_history_tab_bg_off.gif') repeat-x left top;}
+.memberTabWrap li a:hover {color:#666;text-decoration:none;}
+.memberTabWrap li.on {float:left;padding:10px 28px;border-top:1px solid #de131b;border-left:1px solid #de131b;border-right:1px solid #de131b;font:bold 14px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fff;background:url('/payment/ob/common/v1/contents/account_history_tab_bg_on.gif') repeat-x left top;}
+
+.wCoinPgiframe {position:relative;width:908px;height:500px;border:1px solid #e1e1e1;}
+.wcoinPgLoading {position:absolute;left:50%;top:50%;width:280px;height:170px;margin:-85px 0 0 -140px;text-align:center;}
+.wcoinPgLoading h1 {height:50px;font:bold 24px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+
+.importantView {clear:both;padding:30px;}
+.importantView h2 {font:bold 24px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;word-break:break-all;word-wrap:break-word;}
+.importantView .viewScroll .dateDepth {padding:7px 0 10px 0;font:normal 11px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;}
+.importantView .viewScroll .dateDepth strong {font-weight:normal;color:#287cdb;}
+.importantView .viewScroll {clear:both;width:600px;height:420px;font:normal 14px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;overflow-x:auto;overflow-y:auto;word-break:break-all;word-wrap:break-word;}
+.importantView .snsPopView {clear:both;padding-top:15px;margin-top:10px;border-top:1px solid #e1e1e1;}
+.importantView .snsPopView li {float:left;padding-right:8px;}
+
+.validation-summary-errors {clear:both;padding:0;font:normal 12px/1.5 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#ff3a3a;overflow:hidden;}
+.validation-summary-errors li {background: white}
+
+.wcoinGiftTxt {padding:8px 0 17px 0;font:normal 12px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;}
+.alertMessageAcount {clear:both;padding:8px 20px 9px 0;font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#ff3a3a;overflow:hidden;}
+
+/* s:karma koin iframe 20130416 */
+.karmaWrap a.btnStyle02 {border:1px solid #e6007e;color:#fff;background:#e6007e;}
+.karmaWrap a:hover.btnStyle02 {border:1px solid #e6007e;color:#fff;background:#e6007e;cursor:pointer;}
+.karmaWrap a.back {float:left;display:block;height:22px;padding:8px 30px 0 30px;margin-left:10px;border:1px solid #a9a9a9;font:bold 14px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fff;background:#a9a9a9;cursor:pointer;}.karmaWrap a:hover.back {border:1px solid #a9a9a9;text-decoration:none;font:bold 14px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fff;background:#a9a9a9;cursor:pointer;}
+.karmaWrap .btn_posi {padding:30px 0 0 370px;}
+.karmaWrap .btn_posi01 {padding:30px 0 0 300px;}
+.karmaWrap {width:810px;padding:50px 0;margin:0 auto;}
+.karmaWrap h2 {padding:17px 0 18px 0;font-size:20px;color:#333;}
+.karma_pincode {padding:27px 0 0 0;overflow:hidden;background:#1c1b1a;}
+.karma_pincode h3 {float:left;width:70px;padding:10px 0 0 170px;font-size:13px;color:#fff;}
+.karma_pincode input {float:left;width:338px;height:25px;padding:7px 10px 0 10px;margin-bottom:27px;border:1px solid #fff;font:bold 15px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;text-align:center;}
+.karma_pincode .alertMessageWcoin {clear:both;padding:8px 10px 8px 10px;font-size:12px;color:#000;background:#ffff66;}
+.karma_pincode_view {}
+.karma_pincode_view h3 {float:left;width:230px;height:35px;padding:17px 10px 0 20px;font-size:13px;color:#fff;text-align:left;background:#1c1b1a;}
+.karma_pincode_view .pin_code {float:left;width:530px;height:35px;padding:17px 10px 0 10px;font-size:13px;color:#e6007e;font-weight:bold;text-align:left;background:#1c1b1a;}
+.karma_pincode_view dl {clear:both;}
+.karma_pincode_view dt {float:left;width:230px;height:35px;padding:17px 10px 0 20px;border-bottom:1px solid #1c1b1a;font-size:13px;color:#333;text-align:left;}
+.karma_pincode_view dd {float:left;width:530px;height:35px;padding:17px 10px 0 10px;border-bottom:1px solid #1c1b1a;font-size:13px;color:#1c1b1a;font-weight:bold;text-align:left;}
+.karma_pincode_view .alertMessageWcoin {clear:both;padding:8px 10px 8px 10px;font-size:12px;color:#000;background:#ffff66;}
+/* e:karma koin iframe 20130416 */
+
+.form-row {
+    margin-bottom: 16px;
+}
+.cw260 {
+    
+}
+a.tc-gray, .tc-gray {
+    color: #898989;
+}
+.c-left, .c-right, .c-center {
+    display: inline-block;
+    letter-spacing: normal;
+    position: relative;
+    vertical-align: top;
+    word-spacing: normal;
+}
+
+.form-row .c-left{ width: 150px;}
+.form-row .c-right{ width: 300px;}
+
+.form-row .textbox-pop {
+    border: 1px solid #c7d0d2;
+    border-radius: 2px;
+    box-shadow: 0 1.5px 3px rgba(190, 190, 190, 0.4) inset, 0 0 0 5px #f5f7f8;
+    padding: 6px 4px;
+    width: 250px;
+    height:18px;
+}
+
+.form-row .pop-form-desc {
+    display: block;
+    font-size: 13px;
+    padding-top: 8px;
+}
+
+.form-row .selectbox-pop {
+    width: 260px;
+    height: auto;
+}
+
+.form-row label {
+    font-size: 13px;
+    line-height: 29px;
+}
+
+.btn-green input {
+    background-image: -moz-linear-gradient(left top 90deg, #acd6ef 0%, #6ec2e8 100%);
+    border: 1px solid #66add6;
+    border-radius: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 0;
+    margin-top: 20px;
+    width: 110px;
+}
+
+.btn-gray input {
+    background-image: -moz-linear-gradient(left top 90deg, #ccc 0%, #ccc 100%);
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 110px;
+}
+
+label.btn-gray {
+    margin-left: 175px;
+}
+
+.form-row.cutebox  .system_message.alert {
+    height: 10px;
+    line-height: 16px;
+    margin-top: 5px;
+}
+
+.text-danger {
+    color: #a94442;
+}
+
+.text-success {
+    color: #3c763d;
+}
+
+.text-info {
+    color: #31708f;
+}
+
+.game-box {
+    width: 295px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 5px #888;
+    -moz-box-shadow: 0px 0px 5px #888;
+    -webkit-box-shadow: 0px 0px 5px #888;
+    margin: 14px auto;
+    opacity: 0.8;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.game-box:hover, .game-box.clear {
+    opacity: 1
+}
+.game-box h2 {
+    padding: 13px 6px;
+    text-transform: uppercase;
+    color: #333;
+}
+.game-box a {
+    border: 0 !important;
+    padding: 0 !important;
+}
+.game-box a:hover h2 {
+    color: #287cdb !important;
+}
+.game-box a:hover {
+    text-decoration: none;
+}
+.game-box hr {
+    border: 1px inset #e5e5e5;
+}

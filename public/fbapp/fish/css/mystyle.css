@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css */
+
+/* header */
+header{
+    height: 232px;
+    background-image: url(../imgs/headerbg_01.jpg);
+    background-position: center;
+}
+header .iphone_screen{
+    background-image: url(../imgs/iphonescreen_03.png);
+    width: 123px;
+    height: 144px;
+    display: block;
+    position: absolute;
+    top: 48px;
+    left: 78px;
+}
+header .menu{
+    width: 960px;
+    margin: auto;
+    padding-top: 200px;
+}
+header .menu ul{}
+header .menu ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    width: 154px;
+    height: 29px;
+    margin-left: 70px;
+}
+header .menu ul li:hover{
+    opacity: 0.5;
+}
+header .menu ul li a{
+    background-repeat: no-repeat;
+    text-decoration: none;
+    display: block;
+    height: 29px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: tahoma;
+    color: white;
+}
+header .menu ul li a:hover{
+    color: black;
+}
+/* game */
+.game{
+    height: 700px;
+    background-color: black;
+}
+/* footer */
+footer{
+    background-image: url(../imgs/footerbg_20.jpg);
+    height: 457px;
+    background-position: center;
+}
+footer .footer_button{width: 960px;margin: auto;display: block;height: 126px;padding-top: 51px;}
+footer .footer_button a{
+    display: block;
+    float: left;
+    margin-right: 63px;
+}
+footer .footer_button .google{
+    background-image: url(../imgs/footer_21.png);
+    background-repeat: no-repeat;
+    width: 266px;
+    height: 83px;
+}
+footer .footer_button .logo{
+    background-image: url(../imgs/footer_27.png);
+    background-repeat: no-repeat;
+    width: 251px;
+    height: 84px;
+}
+footer .footer_button .apple{
+    background-image: url(../imgs/footer_24.png);
+    background-repeat: no-repeat;
+    width: 251px;
+    height: 84px;
+}
+footer p{
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    display: block;
+}

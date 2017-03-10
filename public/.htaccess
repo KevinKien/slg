@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, DELETE, PUT, OPTIONS"
+    Header set Access-Control-Allow-Headers "Origin, Content-Type, Accept, Authorization, X-Auth-Token, X-Request-With"
+    Header set Access-Control-Allow-Credentials "true"
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect Trailing Slashes...
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    php_value memory_limit 900M
+    php_value post_max_size 900M
+    php_value upload_max_filesize 900M
+    php_value max_input_vars 1800
+    php_value max_execution_time 300
+    php_value max_input_time 300
+</IfModule>

@@ -1,0 +1,3 @@
+[submodule "vendor/captcha-com/captcha"]
+	path = vendor/captcha-com/captcha
+	url = https://git.captcha.com/botdetect-php-captcha-library.git

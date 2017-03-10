@@ -1,0 +1,12 @@
+.rating{
+      background-image: url(../images/vng-18.jpg);
+      width: 150px;
+      height: 90px;
+      display: block;
+      overflow: hidden;
+      text-indent: -9999px;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      z-index: 1000;
+}

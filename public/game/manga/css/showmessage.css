@@ -1,0 +1,183 @@
+﻿#modalContainer {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    background-image: url(tp.png); /* required by MSIE to prevent actions on lower z-index elements */
+}
+
+p {
+    /* margin:10px;
+    padding :10px;
+    font-size:13px; */
+}
+
+#alertBox {
+    position: relative;
+    width: 400px;
+    min-height: 150px;
+    margin-top: 50px;
+    border: 1px solid #666;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+    background: #eceefd;
+}
+
+#modalContainer > #alertBox {
+    position: fixed;
+}
+
+#alertBox h1 {
+    font: bold 0.9em verdana,arial;
+    background-color:#af1b1b;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    vertical-align: middle;
+    color: #FFF;
+    border-bottom: 1px solid #000;
+    padding: 2px 0 2px 5px;
+    padding-top: 5px;
+}
+
+#alertBox p {
+    font: 13px Arial;
+    min-height: 25px;
+    padding-left: 5px;
+    margin-left: 30px;
+    height: 70px;
+    margin-top: 20px;
+    color: #012744;
+}
+
+#alertBox {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #alertBox div {
+        margin-left: 110px;
+        margin-right: auto;
+    }
+
+    #alertBox #closeBtn {
+       display: block;
+position: relative;
+margin: 10px auto;
+padding: 7px;
+border: 0 none;
+width: 70px;
+font: 0.7em verdana,arial;
+text-transform: uppercase;
+text-align: center;
+color: #FFF;
+background-color: #af1b1b;
+border-radius: 3px;
+text-decoration: none;
+    }
+
+    #alertBox #cancelBtn {
+        display: block;
+        position: relative;
+        margin: 5px auto;
+        padding: 7px;
+        border: 0 none;
+        width: 70px;
+        font: 0.7em verdana,arial;
+        text-transform: uppercase;
+        text-align: center;
+        color: #333333;
+        background-color: #af1b1b;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+
+#alertBox2 #closeBtn {
+    display: block;
+    position: relative;
+    margin: 5px auto;
+    padding: 7px;
+    border: 0 none;
+    width: 70px;
+    font: 0.7em verdana,arial;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    background-color: #af1b1b;
+    border-radius: 3px;
+    text-decoration: none;
+    float: left;
+}
+
+#alertBox2 #cancelBtn {
+    display: block;
+    position: relative;
+    margin: 5px auto;
+    padding: 7px;
+    border: 0 none;
+    width: 70px;
+    font: 0.7em verdana,arial;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333333;
+    background-color: #af1b1b;
+    border-radius: 3px;
+    text-decoration: none;
+    float: left;
+    margin: 5px;
+}
+
+/* unrelated styles */
+
+#mContainer {
+    position: relative;
+    width: 500px;
+    margin: auto;
+    padding: 5px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    font: 0.7em verdana,arial;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 4px;
+    font: bold 1.5em verdana;
+}
+
+code {
+    font-size: 1.2em;
+    color: #069;
+}
+
+#credits {
+    position: relative;
+    margin: 25px auto 0px auto;
+    width: 350px;
+    font: 0.7em verdana;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 90px;
+    padding-top: 4px;
+}
+
+    #credits img {
+        float: left;
+        margin: 5px 10px 5px 0px;
+        border: 1px solid #000000;
+        width: 80px;
+        height: 79px;
+    }
+
+.important {
+    background-color: #F5FCC8;
+    padding: 2px;
+}
+
+code span {
+    color: green;
+}

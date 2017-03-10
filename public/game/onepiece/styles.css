@@ -1,0 +1,108 @@
+
+body { color: black; font-size: 12px; font-family: arial; margin: 0; padding: 0; }
+a { color: #b40f0f; text-decoration: none; }
+a:hover { color: #860b0b; text-decoration: none; }
+/*Side Main*/
+div { position: relative; z-index: 9999; }
+.side_main { background-image: url(images/bg.gif); background-repeat: repeat-y; background-position: left 1px; position: absolute; left: 0; width: 200px; height: 100%; transition: all ease 0.3s;}
+.togger { z-index: 99999; }
+a.slg_logo { background-image: url(images/slg_logo.jpg); background-repeat: no-repeat; width: 100%; height: 31px; float: left; }
+a.onp_logo { background-image: url(images/onp_logo.jpg); background-repeat: no-repeat; width: 193px; height: 93px; float: left; }
+.acc_sv { background-image: url(images/acc_box.gif); background-repeat: no-repeat; width: 100%; height: 144px; float: left; }
+.acc_sv p { color: #ffc; font-weight: bold; width: 45%; float: left; margin-left: 12px; }
+.acc_sv a.acc_quit { font-weight: bold; background-image: url(images/quit_bt.gif); background-repeat: no-repeat; text-align: center; width: 75px; float: right; margin-top: 10px; margin-right: 15px; padding-top: 7px; padding-bottom: 3px; }
+.acc_sv a.acc_quit:hover { background-position: left bottom; }
+.acc_sv span { color: #b40f0f; background-repeat: no-repeat; background-position: 5px center; text-align: center; width: 190px; float: left; padding-top: 5px; padding-bottom: 5px; text-shadow: 1px 0px 0px #FFE871; }
+.acc_sv span.ngc { background-image: url(images/bg_ngc.png); text-shadow: 1px 0px 0px #831212; }
+.acc_sv span.ngc a { color: #fff; background-image: url(images/nhan_gc.gif); background-repeat: no-repeat; width: 184px; height: 35px; float: left; margin-left: 5px; }
+.acc_sv select { color: #fff9e6; font-weight: bold; background-color: #3185b8; width: 180px; float: left; margin-top: 1px; margin-left: 6px; padding-top: 2px; padding-bottom: 2px; border: solid 2px #1a2a4d; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+a.card_bt { color: blue; background-image: url(images/card_bt.png); background-repeat: no-repeat; text-decoration: underline; width: 179px; height: 68px; float: left; margin-top: 7px; margin-bottom: 7px; margin-left: 7px; }
+a.card_bt:hover { background-position: left bottom; }
+.banner { float: left; margin-top: 10px; margin-left: 8px; }
+.banner a.event_02 { background-image: url(images/ev_02sm.jpg); background-position: center 50%; margin-bottom: 5px; width: 177px; height: 27px; float: left; }
+.banner a.event_03 { background-image: url(images/ev_03sm.jpg); background-position: center 50%; margin-bottom: 5px; width: 177px; height: 27px; float: left; }
+.banner a.event_04 { background-image: url(images/ev_04sm.jpg); background-position: center 50%; margin-bottom: 5px; width: 177px; height: 27px; float: left; }
+.banner a.event_05 { background-image: url(images/ev_05sm.gif); background-position: center 50%; margin-bottom: 5px; width: 177px; height: 27px; float: left; }
+.banner a { margin-bottom: 5px; float: left; }
+/*Slider*/
+.slider { width: 100%; z-index: 0; float: left; }
+#banner
+	{ background-color: transparent; width: 175px; height: 110px; z-index: 1; overflow:hidden; margin-left: 9px; }
+#btn
+	{ display: inline; width:auto; height: 5px; z-index:999; float: left; margin-top: 5px; margin-left: 4px; }
+#btn a
+	{ color: #000; font-size: 1px; font-weight: bold; background-color: #000; text-align: center; margin-left:5px; padding: 4px; }
+#btn a.activeSlide
+	{ color: #b40f0f; font-size: 1px; background-color: #b40f0f; }
+#btn a:hover
+	{ color: #b40f0f; background-color: #b40f0f; text-decoration: none; }
+@media screen and (min-height:700px) {
+			.side_main { background-image: url(images/bg.gif); background-repeat: repeat-y; position: absolute; left: 0; width: 200px; height: auto; }
+			.banner a.event_01 { background-image: url(images/ev_01.jpg); background-position: center; width: 177px; height: 47px; float: left; margin-bottom: 5px; }
+	.banner a.event_02 { background-image: url(images/ev_02.jpg); background-position: center; margin-bottom: 5px; width: 177px; height: 47px; float: left; }
+	.banner a.event_03 { background-image: url(images/ev_03.jpg); background-position: center; margin-bottom: 5px; width: 177px; height: 47px; float: left; }
+	.banner a.event_04 { background-image: url(images/ev_04.jpg); background-position: center; margin-bottom: 5px; width: 177px; height: 47px; float: left; }
+	.banner a.event_05 { background-image: url(images/ev_05.gif); background-position: center; margin-bottom: 5px; width: 177px; height: 47px; float: left; }
+
+}
+/*Modal*/
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8) url('(EmptyReference!)');
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div { background-image: url(images/bg_popup.gif); background-repeat: no-repeat; background-position: 0 0; width: 292px; position: relative; height: 282px; margin: 10% auto; padding: 50px 80px 50px 34px; border-radius: 10px; }
+.modalDialog > div h2 { color: #7e0b0b; font-size: 14px; font-weight: bold; text-align: center; position: relative; width: 100%; float: left; margin-top: -45px; text-shadow: 0px 1px 0px #ffca70; }
+form input { background-color: #ffface; width: 94%; margin-top: 5px; margin-bottom: 5px; padding: 3%; border: solid 1px #ac9d81; outline-style: none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+form input:focus { background-color: #ffe1a4; border: solid 1px #b40f0f; }
+.close {
+    background: none;
+    color: #ffffff;
+    line-height: 25px;
+    position: absolute;
+    right: 34px;
+    text-align: center;
+    top: 5px;
+    width: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    right: -15px;
+    top: 145px;
+}
+.close:hover {
+    background: #b40f0f;
+}
+.acc_sv a.acc_reg { font-weight: bold; background-image: url(images/quit_bt.gif); background-repeat: no-repeat; text-align: center; width: 75px; float: right; margin-top: 10px; padding-top: 7px; padding-bottom: 4px; }
+.acc_sv a.acc_reg:hover { background-position: left bottom; }
+form table { background-color: #8a7b62; width: 100%; float: left; }
+form table td { background-color: #dbd3be; text-align: center; padding: 10px; }
+form table td.head { color: #fff; font-weight: bold; background-color: #675c49; }
+form table td b { color: #b40f0f; }
+a.reg { color: #ffe788; font-size: 14px; font-weight: bold; background-image: url(images/acc_box.gif); background-repeat: no-repeat; background-position: right -2px; text-align: center; width: 90px; float: left; padding-top: 6px; padding-bottom: 6px; border-right: 1px solid #e9e4d7; border-bottom: 1px solid #e9e4d7; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+a.reg:hover { color: #ffface; background-position: left -2px; }
+#iframeGame {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 200px;
+    bottom: 0;
+}

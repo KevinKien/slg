@@ -1,0 +1,196 @@
+﻿@charset "utf-8";
+
+th, td, thead, tbody {margin:0;padding:0;}
+
+.listStyleSmall {clear:both;padding:0 19px;background:#fafafa;}
+.listStyleSmall li:last-child {border-bottom:0;}
+.listStyleSmall .listBox {padding:0;margin:0;line-height:0;}
+.listStyleSmall .listBox {position:relative;height:60px;padding:17px 0 0 0;border-bottom:1px solid #e1e1e1;overflow:hidden;_zoom:1;}
+.listStyleSmall .listBox.borderNone {border-bottom:0}
+.listStyleSmall .listBox .sumimg {position:absolute;left:0;top:17px;width:75px;}
+.listStyleSmall .listBox .sumimg a img {border:1px solid #e1e1e1;}
+.listStyleSmall .listBox .listConts {padding-left:75px;}
+.listStyleSmall .listBox .title {padding-bottom:5px;word-break:break-all;word-wrap:break-word;}
+.listStyleSmall .listBox .title a, .listStyleSmall li .title a:hover {font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;}
+.listStyleSmall .listBox .time {font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;}
+.listStyleSmall .listBox.on .sumimg {position:absolute;left:0;top:17px;width:75px;}
+.listStyleSmall .listBox.on .sumimg img {border:2px solid #e1141c;}
+.listStyleSmall .listBox.on .title {font:bold 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#e1141c;}
+.listStyleSmall .listMore {padding:15px 0;}
+.listStyleSmall .listMore span {font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#287cdb;text-decoration:none; cursor:pointer;}
+.listStyleSmall .noData {padding:15px 0;font:bold 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;border-bottom:0;}
+.noData {padding:35px 0 20px 0;font:normal 14px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;border-bottom:1px solid #e5e5e5;}
+
+.listStyleNoimg {clear:both;padding:0 19px;background:#fafafa;}
+.listStyleNoimg .listBox {padding:0;margin:0;line-height:0;}
+.listStyleNoimg .listBox {position:relative;height:60px;padding:17px 0 0 0;border-bottom:1px solid #e1e1e1;overflow:hidden;_zoom:1;}
+.listStyleNoimg .listBox.borderNone {border-bottom:0}
+.listStyleNoimg .listBox .listConts {}
+.listStyleNoimg .listBox .title {padding-bottom:5px;word-break:break-all;word-wrap:break-word;}
+.listStyleNoimg .listBox .title a, .listStyleSmall li .title a:hover {font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;}
+
+.tableStyle01 {clear:both;border-top:2px solid #de131b;}
+.tableStyle01 th {padding:10px 0;font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;border-bottom:2px solid #333;background:#fafafa;}
+.tableStyle01 td {padding:13px 5px 12px 20px;font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;text-align:left;border-bottom:1px solid #e1e1e1;word-break:break-all;word-wrap:break-word;}
+.tableStyle01 td.bgCell {background:#fafafa;}
+.tableStyle01 td .td_title {padding-bottom:5px;}
+
+.tableStyleHelp01 {clear:both;border-top:2px solid #de131b;}
+.tableStyleHelp01 th {padding:10px 0;font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;border-bottom:2px solid #333;background:#fafafa;}
+.tableStyleHelp01 td {padding:13px 5px 12px 5px;font:normal 13px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;text-align:center;border-bottom:1px solid #e1e1e1;}
+.tableStyleHelp01 td.bgCell {background:#fafafa;}
+.tableStyleHelp01 td.line {border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1;}
+.tableStyleHelp01 td.lineleft {border-left:1px solid #e1e1e1;}
+.tableStyleHelp01 td.helpCountry {padding-left:20px;text-align:left;}
+.tableStyleHelp01 td a, .tableStyleHelp01 td a:hover {font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#287cdb;text-decoration:underline;}
+
+.tableStyle02 {clear:both;}
+.tableStyle02 th {padding:14px 20px 12px 20px;font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;text-align:left;vertical-align:top;border-bottom:1px solid #e1e1e1;background:#fafafa;}
+.tableStyle02 th.borderStyle {border-top:2px solid #de131b;}
+.tableStyle02 td {padding:10px 10px 10px 18px;font:normal 13px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;text-align:left;border-bottom:1px solid #e1e1e1;word-break:break-all;word-wrap:break-word;}
+.tableStyle02 td label {padding-right:5px;margin-left:10px;font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;}
+.tableStyle02 td img.nickImg {border:1px solid #e1e1e1;vertical-align:middle;margin-right:10px;}
+.tableStyle02 td.arrayR {padding:10px 20px 10px 0;text-align:right;}
+.tableStyle02 td.arrayR a {font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#287cdb;}
+.tableStyle02 td.arrayR a:hover {color:#287cdb;}
+.tableStyle02 td.borderStyle {border-top:2px solid #333;}
+.tableStyle02 td .dateTime {position:relative;}
+.tableStyle02 td input.txtstyle {height:18px;padding:4px 0 0 3px;border:1px solid #e1e1e1;font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.tableStyle02 td input.txtstyleCode {height:32px;padding-left:3px;border:1px solid #ed1c24;font:bold 15px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.tableStyle02 td .answerWrap {clear:both;padding:13px 0 0 0;}
+.tableStyle02 td .answerWrap .answerTit {float:left;padding-bottom:5px;}
+.tableStyle02 td .answerWrap .faqGo {float:right;padding:0 10px 5px 0;}
+.tableStyle02 td .answerWrap .faqGo a {font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#287cdb;}
+.tableStyle02 td .answerWrap .faqGo a:hover {color:#287cdb;}
+.tableStyle02 td .answerWrap ul {clear:both;}
+.tableStyle02 td .answerWrap ul li {font:normal 13px/1.7 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#3685dd;padding-left:10px;background:url('/cs/ob/common/v1/contents/etclist_jum.gif') no-repeat left 9px;}
+.tableStyle02 td .answerWrap ul li a {color:#3685dd;}
+.tableStyle02 td .answerWrap ul li a:hover {color:#3685dd;}
+.tableStyle02 td .noticeTit {padding-bottom:5px;}
+.tableStyle02 td .noticeList {clear:both;}
+.tableStyle02 td .noticeList li {font:normal 13px/1.7 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#ff3a3a;padding-left:8px;background:url('/cs/ob/common/v1/contents/list_jum_red.gif') no-repeat left 9px;}
+.tableStyle02 td .fileAdd {width:600px; height:65px; margin-top:8px;border:1px solid #e5e5e5;}
+.tableStyle02 td .fileAddEtc {width:600px; text-align:right; padding-top:15px;}
+.tableStyle02 td .fileAddEtc img {vertical-align:top; padding-left:5px; margin-top:-7px;}
+
+.faqCateTabWrap {width:550px;padding:0 0 1px 0;margin-bottom:0;background:url('/cs/ob/common/v1/contents/press_tab_bg.gif') repeat;overflow:hidden;_zoom:1;}
+.faqCateTabWrap li {float:left;height:34px;padding:1px 0 0 0;}
+.faqCateTabWrap li a {display:block;padding:13px 15px 13px 15px;_padding-bottom:12px;font:bold 13px/0.8 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;white-space:nowrap;}
+.faqCateTabWrap li a:hover {font:bold 13px/0.8 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fff;text-decoration:none;background:url('/cs/ob/common/v1/contents/press_tab_list_bg.gif') no-repeat left top;}
+.faqCateTabWrap li a.on {font:bold 13px/0.8 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fff;text-decoration:none;background:url('/cs/ob/common/v1/contents/press_tab_list_bg.gif') no-repeat left top;}
+
+.pressTabWrap {padding:0 0 1px 0;margin-bottom:11px;background:url('/cs/ob/common/v1/contents/press_tab_bg.gif') repeat;overflow:hidden;_zoom:1;}
+.pressTabWrap li {float:left;height:34px;padding:1px 0 0 0;}
+.pressTabWrap li a {display:block;padding:13px 20px 13px 15px;_padding-bottom:12px;font:bold 13px/0.8 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;white-space:nowrap;}
+.pressTabWrap li a:hover {font:bold 13px/0.8 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fff;text-decoration:none;background:url('/cs/ob/common/v1/contents/press_tab_list_bg.gif') no-repeat left top;}
+.pressTabWrap li a.on {padding:13px 18px 13px 19px;font:bold 13px/0.8 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fff;text-decoration:none;background:url('/cs/ob/common/v1/contents/press_tab_list_bg.gif') no-repeat left top;}
+
+.faqSearchWrap {clear:both;padding-top:10px;}
+.faqSearchWrap input.txtstyle {float:left;width:470px;height:25px;padding:7px 0 0 6px;border:2px solid #de131b;font:normal 14px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;}
+.faqSearchWrap a {float:left;display:block;width:100px;height:36px;background:url('/cs/ob/common/v1/contents/icon_search_btn.gif') no-repeat left top;}
+
+.categoryList {clear:both;padding-top:20px;border-bottom:1px solid #e1e1e1;background:#fafafa;overflow:hidden;_zoom:1;}
+.categoryList li {float:left;width:262px;height:32px;padding:0 0 0 28px;background:url('/cs/ob/common/v1/contents/list_jum01.gif') no-repeat 20px 5px;}
+.categoryList li a {font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;}
+.categoryList li a.on {font:bold 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#e1141c;text-decoration:none;letter-spacing:-0.038em;}
+.categoryList li a:hover {font:bold 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#e1141c;text-decoration:none;letter-spacing:-0.038em;}
+
+.viewEditArea {clear:both;width:590px;max-height:250px;font:normal 14px/1.3 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;overflow:hidden;}
+
+.directIn {clear:both;padding:20px;border:1px solid #ffe094;background:#fffae1;overflow:hidden;_zoom:1;}
+.directIn .icon {float:left;width:70px;}
+.directIn .txtConts {float:left;font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.directIn .txtConts span {display:block;width:460px;padding:7px 0 8px 0;color:#666;}
+
+.importantView {clear:both;padding:30px;}
+.importantView h2 {font:bold 24px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;word-break:break-all;word-wrap:break-word;}
+.importantView .viewScroll .dateDepth {padding:7px 0 10px 0;font:normal 11px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;}
+.importantView .viewScroll .dateDepth strong {font-weight:normal;color:#287cdb;}
+.importantView .viewScroll {clear:both;width:600px;height:420px;font:normal 14px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;overflow-x:hidden;overflow-y:scroll;word-break:break-all;word-wrap:break-word;}
+.importantView .snsPopView {clear:both;padding-top:15px;margin-top:10px;border-top:1px solid #e1e1e1;}
+.importantView .snsPopView li {float:left;padding-right:8px;}
+
+.fileUploadWrap {display:block;padding:20px 0 10px 20px;margin:0 40px 10px 40px;border:1px solid #e1e1e1;background:#fafafa;}
+.fileUploadWrap .txtstyle {width:93%;height:22px;padding:4px 0 0 3px;border:1px solid #e1e1e1;font:bold 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;background:#fff;}
+.fileUploadWrap .infoMessage {clear:both;padding:10px 0 12px 0;font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;}
+.fileUploadWrap .infoMessage li {padding:0 0 0 8px;font:normal 13px/1.5 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;background:url('/cs/ob/common/v1/contents/list_jum01.gif') no-repeat left 7px;}
+.alertMessageUpLoad {clear:both;padding:0 20px 0 40px;font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#ff3a3a;overflow:hidden;}
+
+.upLoadChkBtn {clear:both;position:relative;width:auto;height:60px;}
+.upLoadChkBtn a {position:absolute;left:50%;top:0;margin-left:-7%;}
+
+.depthCase {font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#287cdb;}
+.depthCase a, .depthCase a:hover {color:#287cdb;text-decoration:none;}
+.h3divSpace {padding:0 10px;}
+.etcInfoTxt {padding:20px 0 27px 0;font:normal 13px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.etcInfoTxt li {color:#666;line-height:18px;}
+.etcInfoTxt li.iconImg {position:relative;}
+.etcInfoTxt li.iconImg img {position:absolute;right:70px;top:-115px;}
+.etcInfoTxt li strong {color:#287cdb;font-weight:normal;}
+.etcListTxt {clear:both;padding:18px 20px 17px 20px;border:1px solid #d4dce9;background:#f7f8fb;overflow:hidden;_zoom:1;}
+.etcListTxt li {font:normal 13px/1.7 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#4c6599;padding-left:10px;background:url('/cs/ob/common/v1/contents/etclist_jum.gif') no-repeat left 8px;overflow:hidden;_zoom:1;}
+.etcListTxt li span.tit {float:left;width:170px;}
+.etcListTxt li strong.txt {float:left;width:650px;color:#db2626;}
+.defaultChktxt {clear:both;padding:20px 0 10px 13px;font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;background:url('/cs/ob/common/v1/contents/icon_chk_arrow.gif') no-repeat left 22px;}
+.defaultChktxtSC {clear:both;padding:0 0 10px 13px;font:normal 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;background:url('/cs/ob/common/v1/contents/icon_chk_arrow.gif') no-repeat left 2px;}
+.defaultChktxtList li {padding:5px 0 0 12px;font:normal 13px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;}
+.defaultChktxtList li a {margin-top:5px;}
+.alertMessageAcount {clear:both;padding:8px 20px 9px 0;font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#ff3a3a;overflow:hidden;}
+.btnAcountTerm {clear:both;padding-left:0;}
+.btnAcountTerm a {margin-right:5px;}
+.btnAcountTerm a.right {float:right;margin-right:0;}
+
+#CalWrap {position:absolute;left:150px;top:0;_top:2px;display:none;z-index:9999;}
+#CalBox {width:336px;height:303px;background:url('/cs/ob/common/v1/contents/cal_wrap_bg.gif') no-repeat;}
+#CalWrapContents {width:288px;height:261px;padding:10px 0 0 6px;margin:0 auto;}
+.CalBoxClose {padding:0 0 10px 0;text-align:right;}
+.CalBoxClose img {vertical-align:top;}
+.CalBoxClose a {font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;}
+.CalBoxClose a:hover {font:normal 11px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;text-decoration:none;}
+.arrowWrap {clear:both;width:288px;height:35px;}
+.arrowWrap .arrow01 {float:left;padding-right:35px;}
+.arrowWrap .arrow02 {float:right;}
+.arrowWrap select {float:left;margin-left:4px;}
+
+.calrendarTable {clear:both;}
+.calrendarTable thead {background:#333;}
+.calrendarTable th {height:30px;font:normal 10px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#fff;text-align:center;}
+.calrendarTable td {border:1px solid #e1e1e1;}
+.calrendarTable td a {display:block;width:40px;height:20px;padding-top:10px;font:bold 13px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;text-align:center;}
+.calrendarTable td a:hover {width:36px;height:18px;padding-top:8px;border:2px solid #db2626;color:#333;text-decoration:none;background:#fffae1;}
+.calrendarTable td a.sat {color:#287cdb;}
+.calrendarTable td a.sat:hover {color:#287cdb;text-decoration:none;}
+.calrendarTable td a.sun {color:#db2626;}
+.calrendarTable td a.sun:hover {color:#db2626;text-decoration:none;}
+.calrendarTable td a.on {width:36px;height:18px;padding-top:8px;border:2px solid #db2626;color:#333;text-decoration:none;background:#fffae1;}
+
+.scHelpConts {clear:both;padding-bottom:50px;}
+.scHelpConts .imgBox {padding:20px;border:1px solid #e1e1e1;background:#fafafa;}
+.scHelpConts .txt {padding-top:5px;font:normal 13px/1.5 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#999;}
+
+.wcoinHelp {padding:8px 0 17px 0;font:normal 13px/1.5 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;}
+.wcoinHelp a {color:#287cdb;text-decoration:underline;}
+
+.basicGuideTxt {padding:8px 0 5px 0;font:normal 13px/1.5 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#666;}
+.basicGuideTxt strong {font-weight:normal;color:#000;}
+.basicGuideTxt a {color:#287cdb;text-decoration:underline;}
+
+.SC_stepInfo {clear:both;padding:25px 0 25px 12px;border:1px solid #e1e1e1;background:#fafafa;overflow:hidden;_zoom:1;}
+.SC_stepInfo li {float:left;position:relative;width:240px;padding:0 33px 0 25px;font:bold 13px/1.2 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#de131b;background:url('/cs/ob/common/v1/contents/sc_step_process_div.gif') no-repeat right 55px;}
+.SC_stepInfo li .stepTit {height:25px;font:bold 18px/1 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#333;}
+.SC_stepInfo li .stepinfo_bg01 {width:240px;background:url('/cs/ob/common/v1/contents/sc_step_infobg02.gif') no-repeat left bottom;}
+.SC_stepInfo li .stepinfo_bg02 {padding:20px;background:url('/cs/ob/common/v1/contents/sc_step_infobg01.gif') no-repeat left top;}
+.SC_stepInfo_txt {clear:both;padding:15px 0 0 0;}
+.SC_stepInfo_txt li {font:normal 14px/1.5 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;}
+.SC_stepInfo_txt li.attention {padding:15px 0 0 0;color:#de131b;}
+.topAncGo {clear:both;text-align:right;}
+.topAncGo a {padding-left:13px;font:bold 10px/1.5 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#db2626;background:url('/cs/ob/common/v1/contents/icon_schelp_top.gif') no-repeat left 2px;}
+.topAncGo a:hover {text-decoration:none;}
+
+<!-- s:cs 20120601 -->
+.etcListTxtadd {clear:both;padding:18px 20px 17px 20px;border:1px solid #d4dce9;background:#f7f8fb;overflow:hidden;_zoom:1;}
+.etcListTxtadd strong {display:block;padding:0 0 10px 0;color:#4c6599;}
+.etcListTxtadd ul li {font:normal 13px/1.7 Arial, Tahoma, 'Segoe UI', 'Lucida Sans Unicode',  sans-serif;color:#4c6599;padding-left:10px;background:url('/cs/ob/common/v1/contents/etclist_jum.gif') no-repeat left 8px;overflow:hidden;_zoom:1;}
+.tableStyle02 th.borderStyleTD {border-top:2px solid #333;}
+.tableStyle02 td label.add {color:#333;}
+<!-- e:cs 20120601 -->

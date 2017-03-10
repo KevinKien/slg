@@ -1,0 +1,6 @@
+/.idea/
+/nbproject/
+deploy.php
+/tests/
+/storage/
+/bootstrap/cache/

@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 18, 2015, 4:09:17 PM
+    Author     : Duong
+*/
+.info_iilustration {
+    height: 108px;
+    width: 295px;
+    display: block;
+    opacity: 0.8;
+    -moz-transition: all 0.218s ease-in-out;
+    -webkit-transition: all 0.218s ease-in-out;
+}
+.infomation_select {
+    overflow: hidden;
+    margin-top: 15px;
+    border-top: 2px solid #de131b;
+}
+.internal_treatment {background-position:-390px;}
+.infomation_select .infomation_blocking {
+    width:295px;
+    height: 160px;
+    background: rgba(204, 204, 204, 0.09);;
+    display: block;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin:10px 12px 10px 12px;
+}
+a.infomation_blocking {text-decoration:none;color:#a3a3a3;font-family:Tahoma, Geneva, sans-serif;}
+.doixu_select .info_name {
+    width: 219px;
+    height: 43px;
+    display: block;
+    position: relative;
+    padding:10px 61px 0 15px;
+}
+.info_name {width:204px;height:58px;display:block;position:relative;padding:15px 61px 0 15px;}
+/*.right_cut {-moz-transition: all 0.218s ease-in-out;-webkit-transition: all 0.218s ease-in-out;width:61px;height:60px;background:url(../images/right_cut.png);display:block;position:absolute;right:0;top:0;opacity:0.8;}*/
+.info_name strong {font-size:16px;display:block;color:#414141;}
+.info_name b {font-size:11px ;font-family:Tahoma, Geneva, sans-serif;line-height:14px;font: 12px/18px normal}
+.infomation_blocking:hover .info_iilustration,.infomation_blocking:hover .right_cut,.infomation_blocking:hover .fix_icon  {opacity:1;}
+.infomation_blocking:hover .info_name strong {color:#c41c29;}
+.logo_doixu {-moz-transition: all 0.218s ease-in-out;-webkit-transition: all 0.218s ease-in-out;width:150px;height:75px;display:block;position:absolute;right:-10px;bottom:-150px;}
+.infomation_blocking:hover .logo_doixu, .cl_active .logo_doixu, .tq_active .logo_doixu, .dh_active .logo_doixu, .ct_active .logo_doixu, .dk_active .logo_doixu, .dg_active .logo_doixu, .tn_active .logo_doixu {bottom:25px;}
+.form_float_right {float:right !important;margin-top:0 !important;}

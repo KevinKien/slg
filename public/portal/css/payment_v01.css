@@ -1,0 +1,116 @@
+﻿@charset "utf-8";
+
+.v01_info_txt {clear:both;padding-bottom:15px;font-size:13px;color:#666;}
+.v01_info_txt strong.etc {color:#000;}
+.v01_info_txt strong.point {color:#ff3a3a;}
+.ContsSubBox.v01_layout {padding-top:40px;background:none;}
+.floating_left {float:left;}
+.subMenu h1.v01_tit {height:auto;padding-top:65px;padding-bottom:0;margin-bottom:0;font-size:30px;color:#333;}
+
+.v01_layout * {font-size:13px;font-family:'sans-r', Tahoma, sans-serif;}
+.system_wrp {padding:150px 0 0 140px;}
+.v01_system_tit {font-size:35px;color:#333;}
+.message_wrp {height:200px;padding:60px 0 0 215px;overflow:hidden;}
+.message_wrp  p {padding-top:15px;line-height:1.5;font-size:13px;color:#666;}
+.message_wrp.error {background:url('images/ill_error.jpg') no-repeat 0 60px;}
+.message_wrp.hold {background:url('images/ill_hold.jpg') no-repeat 0 60px;}
+.message_wrp.error a {color:#205fd2;text-decoration:underline;}
+.message_wrp.paypal {height:230px;background:url('images/ill_error.jpg') no-repeat 0 90px;}
+
+.py_top_div {clear:both;padding-bottom:45px;overflow:hidden;}
+.py_top_div.sub_display {padding-bottom:10px;}
+.py_top_div aside {float:left;width:580px;}
+.user_wcoin_bx {float:right;width:260px;height:110px;padding:10px 10px 10px 20px;background:#f8f0e0;border:1px solid #f8f0e0;border-radius:2px;}
+.user_wcoin_bx h3 {padding-bottom:15px;font-size:15px;color:#000;}
+.user_wcoin_bx .icon_wcoin_mark {display:block;height:35px;padding:0 0 0 45px;font-size:30px;color:#db2626;background:url('images/icon_wcoin.png') no-repeat;}
+.user_wcoin_bx ul {clear:both;padding-top:20px;}
+.user_wcoin_bx li {float:left;padding:0 8px;background:url('images/icon_list_dot_205fd2.gif') no-repeat 0 7px;}
+.user_wcoin_bx li a {color:#205fd2;font-size:12px;text-decoration:underline;}
+
+.py_top_div.sub_display .user_wcoin_bx {width:auto;height:auto;padding:15px 20px;}
+.py_top_div.sub_display .user_wcoin_bx h3 {float:left;padding:8px 30px 0 0;}
+.py_top_div.sub_display .user_wcoin_bx .icon_wcoin_mark {float:left;height:35px;padding:0 0 0 45px;font-size:30px;color:#db2626;background:url('images/icon_wcoin.png') no-repeat;}
+
+.select_available {float:right;}
+.select_available label {color:#666;}
+
+.tableStyle02.pg_table td {padding:0;margin:0;font-size:0;line-height:0;}
+.tableStyle02.pg_table td.nodata {font-size:14px;height:100px;text-align:center;font-weight:bold;}
+.pg_table td ul {background:url('images/bg_pay_list.gif') repeat-y;overflow:hidden;}
+.pg_table td li.pg_chk_bx {float:left;position:relative;width:120px;height:90px;font-size:0;line-height:0;padding:0;margin:0;}
+.pg_table td li.pg_chk_bx .iLabel {position:absolute;left:6px;top:18px;visibility:visible;width:120px;cursor:pointer;}
+.pg_table td li.pg_chk_bx .iRadio {visibility:hidden;height:57px;line-height:0;}
+.pg_table td li.pg_chk_bx .designRadio {position:absolute;left:0;top:0;display:block;width:120px;height:91px;}
+.pg_table td li.pg_chk_bx .designRadio .radio {display:block;width:120px;height:91px;background:none;}
+.pg_table td li.pg_chk_bx .designRadio .radio.checked {background:url('images/pg_select_bg00.gif') no-repeat 0 1px;}
+.pg_table td li.pg_chk_bx .designRadio .radio.over {background:url('images/pg_select_bg00.gif') no-repeat 0 1px;}
+*+html .pg_table td li.pg_chk_bx {width:112px;}
+*+html .pg_table td li.pg_chk_bx .designRadio {width:112px;}
+*+html .pg_table td li.pg_chk_bx .designRadio .radio {width:112px;}
+
+.wcoin_select {clear:both;}
+.wcoin_select li {clear:both;border-bottom:1px solid #e5e5e5;font-size:0;line-height:0;}
+.wcoin_select li.nodata {height:100px;font-size:14px;text-align:center;line-height:90px;background:none;border-top:2px solid #333;}
+.wcoin_select li label {display:inline-block;width:100%;cursor:pointer;}
+.wcoin_select li.on .sel_usd {background:#fff9ea;}
+.wcoin_select li.on .wcoin_pay {background:#fff9ea;}
+.wcoin_select li .sel_usd {float:left;width:235px;height:25px;padding:15px 0 0 15px;font-size:13px;color:#666;background:#fafafa;}
+.wcoin_select li .sel_usd.topline {border-top:2px solid #de131b;}
+.wcoin_select li .wcoin_pay {float:left;width:645px;height:20px;padding:20px 0 0 15px;}
+.wcoin_select li .wcoin_pay.topline {border-top:2px solid #333;}
+.wcoin_select li .wcoin_pay strong {color:#de131b;font-weight:normal;}
+
+.tableStyle02 th.v01_th_sty {font-size:13px;color:#666;  font-family: sans-bold;
+    font-size: 13px;
+    font-weight: normal;line-height:1.4;vertical-align:middle;}
+
+.tableStyle02 input.log_type::-ms-clear {display:none;}
+.tableStyle02 input.log_type {height:22px;padding-left:10px;line-height:22px;color:#666;font:normal 13px/1.2 tahoma, 'sans-r', Helvetica, sans-serif;border:1px solid #c0c0c0;background:#fff;box-shadow: inset 0 0 0 #e6e6e6;}
+.tableStyle02 input.log_type:focus {height:22px;padding-left:10px;font-size:15px;line-height:22px;color:#666;font-weight:normal;border:1px solid #c0c0c0;}
+.tableStyle02 .input_div_wrp {position:relative;float:left;padding:0 10px 0 0;width:auto;}
+.tableStyle02 .input_label {position:absolute;left:10px;top:4px;color:#666;font:normal 12px/1.2 tahoma, 'sans-r', Helvetica, sans-serif;}
+.tableStyle02 .Input_has_focus {border:1px solid #bdbdbd;}
+.tableStyle02 th.borderStyle.line {line-height:0;font-size:0;padding:0;border-bottom:0;}
+.tableStyle02 td.borderStyle.line {line-height:0;font-size:0;padding:0;border-bottom:0;}
+
+.wcoin_pg_iframe {position:relative;width:910px;text-align:center;}
+.wcoin_pg_iframe .wcoin_pg_loading {padding:120px 0 60px;}
+.wcoin_pg_iframe .wcoin_pg_loading strong {font-size:14px;color:#e01f1f;font-weight:bold;}
+.wcoin_pg_iframe .wcoin_pg_loading img {margin-bottom:15px;}
+.wcoin_pg_iframe p.loading_txt {padding-bottom:15px;font-size:18px;color:#333;font-weight:bold;}
+.wcoin_pg_iframe p {font-size:13px;color:#333;}
+.wcoin_pg_iframe p a {text-decoration:underline;color:#287cdb;}
+
+.epin_code_wrp {clear:both;position:relative;padding:0 0 40px 0;border:1px solid #e5e5e5;border-top:0;}
+.epin_code_wrp .tit {position:relative;height:42px;padding:13px 0 0 15px;background:#f5f5f5;}
+.epin_code_wrp p {padding:40px 0 25px 210px;color:#666;}
+.epin_code_wrp .system_message {padding:0 0 0 210px;}
+.epin_code_wrp .system_message a {font-size:11px;font-weight:bold;text-decoration:underline;color:#287cdb;}
+.epin_code_wrp label {float:left;width:140px;padding:10px 10px 0 60px;text-align:right;}
+.epin_code_wrp .input_div_wrp {float:left;width:500px;}
+.epin_code_wrp .btnStyle02 {float:left;}
+.epin_code_wrp input.log_type {height:30px;padding-left:10px;line-height:30px;color:#666;font:bold 15px/1.2 tahoma, 'sans-r', Helvetica, sans-serif;border:1px solid #c0c0c0;background:#fff;box-shadow: inset 0 0 0 #e6e6e6;}
+.epin_code_wrp input.log_type:focus {height:30px;padding-left:10px;font-size:15px;line-height:30px;color:#333;font-weight:bold;border:1px solid #c0c0c0;}
+.epin_code_wrp .input_div_wrp {position:relative;float:left;padding:0 10px 0 0;width:auto;}
+.epin_code_wrp .Input_has_focus {border:1px solid #bdbdbd;}
+
+.epin_logo_wrp {clear:both;padding-top:30px;}
+
+.btnWcoinCenter {clear:both;padding-left:0;text-align:center;}
+.btnWcoinCenter a {display:inline-block;float:none;margin-right:5px;}
+
+.btn_pay {float:left;;height:29px;margin-left:5px;font-size:14px;font-weight:600;color:#9c9c9d;cursor:pointer;vertical-align:middle;}
+.btn_pay .btnleft {float:left;width:14px;height:29px;background:url('images/btn_pay02_bg_left.jpg') no-repeat left top;}
+.btn_pay .btncenter {float:left;height:23px;padding:6px 0 0 0;background:url('images/btn_pay02_bg_center.jpg') repeat-x;}
+.btn_pay .btnright {float:left;width:14px;height:29px;background:url('images/btn_pay02_bg_right.jpg') no-repeat right top;}
+.btn_pay:hover {color:#9c9c9d;text-decoration:none;}
+
+.btn_pay.on {color:#fff;}
+.btn_pay.on .btnleft {background:url('images/btn_pay01_bg_left.jpg') no-repeat left top;}
+.btn_pay.on .btncenter {background:url('images/btn_pay01_bg_center.jpg') repeat-x;}
+.btn_pay.on .btnright {background:url('images/btn_pay01_bg_right.jpg') no-repeat right top;}
+.btn_pay.on:hover {color:#fff;text-decoration:none;}
+
+
+p.tableTopinfo.profile {padding:15px;margin-top:-15px;*margin-top:-22px;background:#f8f0e0;}
+p.tableTopinfo.profile strong {color:#db2626;font-weight:bold;}
